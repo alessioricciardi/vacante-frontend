@@ -1,0 +1,78 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  safeArea: {
+    flex: 1,
+    alignItems: 'center',
+    paddingHorizontal: 30,
+    paddingVertical: 50,
+  },
+  logoText: {
+    fontSize: 38,
+    fontWeight: 'bold',
+    color: '#000',
+    alignSelf: 'flex-start',
+    marginBottom: 80,
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: '700',
+    color: '#000',
+    textAlign: 'center',
+    marginBottom: 10,
+  },
+  subtitle: {
+    fontSize: 13,
+    color: '#333',
+    textAlign: 'center',
+    marginBottom: 40,
+    paddingHorizontal: 20,
+  },
+  input: {
+    backgroundColor: 'rgba(255, 255, 255, 0.8)',
+    width: '100%',
+    height: 60,
+    borderRadius: 30,
+    paddingHorizontal: 25,
+    fontSize: 16,
+    borderWidth: 1,
+    borderColor: '#EEE',
+    textAlign: 'center',
+    marginBottom: 30,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 5,
+    elevation: 2,
+  },
+  button: {
+    backgroundColor: '#BD00FF',
+    width: '100%',
+    height: 60,
+    borderRadius: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#BD00FF',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 5,
+  },
+  buttonText: {
+    color: '#FFF',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  footerLink: {
+    marginTop: 'auto',
+    alignSelf: 'flex-end',
+  },
+  footerLinkText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#000',
+  },
+});
